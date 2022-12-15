@@ -18,6 +18,7 @@
     <title>home</title>
 </head>
 <body>
+<link rel="stylesheet" href="style.css"> 
    
     <h2><a href="students.php">students</a></h2> 
     <br> <br>

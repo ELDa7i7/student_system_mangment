@@ -4,7 +4,7 @@
     color: #3a6cf4;
    } 
 </style>
-
+<link rel="stylesheet" href="style.css">
 
 <?php 
 

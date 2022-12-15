@@ -1,4 +1,5 @@
 <h1>login for admins</h1>
+<link rel="stylesheet" href="../style.css"> 
 <style>
 h1{color: #3a6cf4;}</style>
 

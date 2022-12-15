@@ -1,4 +1,5 @@
-<h1>add student</h1>
+<h1>add student</h1> 
+<link rel="stylesheet" href="../style.css"> 
 <style>
 h1{color: #3a6cf4;}</style>
 <?php 
