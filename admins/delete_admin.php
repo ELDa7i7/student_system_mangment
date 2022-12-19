@@ -7,6 +7,7 @@ h1{color: #3a6cf4;}</style>
 session_start();
 if (!isset($_SESSION['admin'])) {
     header("location: index.php");
+    exit ;
 }
 
 include('../conn.php');

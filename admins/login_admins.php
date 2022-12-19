@@ -10,6 +10,7 @@ session_start();
 if(isset($_SESSION['admins']))
 {
     header("location:../admins.php");
+    exit ;
 }
 $errors = [];
 if(isset($_POST['submit'])) 
@@ -62,6 +63,7 @@ if(isset($_POST['submit']))
                 $_POST['email'] = "";
                 $_POST['password'] = "";
                 header("location:../admins.php");
+                exit ;
             }
 
         }

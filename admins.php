@@ -11,6 +11,7 @@
 session_start();
 if (!isset($_SESSION['admins'])) {
     header("location: index.php");
+    exit ;
 }
 ?>
 <h2><a href="students/add_student.php">add_student</a><br>
