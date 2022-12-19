@@ -1,0 +1,3 @@
+#prevent directory listing
+options -indexes
+errordocument 403 "this page is not allowed for you"
